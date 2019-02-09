@@ -1,3 +1,7 @@
+//Fayaaz Hoesseinbaks
+//Pizza calculator
+
+
 var pizzas = [
 	{
 		name: "Pizza Chicken Supreme",
@@ -25,15 +29,9 @@ var pizzas = [
 ]
 
 function headerFunction() {
-	var header1 = document.getElementById('header1'),
-		header2 = document.getElementById('header2'),
-		header3 = document.getElementById('header3'),
-		header4 = document.getElementById('header4');
-
-	header1.innerHTML = pizzas[0].name;
-	header2.innerHTML = pizzas[1].name;
-	header3.innerHTML = pizzas[2].name;
-	header4.innerHTML = pizzas[3].name;
+	for (var i = 0; i < pizzas.length; i++) {
+		pizzas[i]
+	}
 }
 headerFunction();
 
@@ -71,3 +69,16 @@ function toppingFunction() {
 	topping4.innerHTML = topping[3].name;
 }
 toppingFunction();
+
+function imageFunction() {
+	var img1 = document.getElementById('img1'),
+		img2 = document.getElementById('img2'),
+		img3 = document.getElementById('img3'),
+		img4 = document.getElementById('img4');
+
+	img1.innerHTML = img[0].name;
+	img2.innerHTML = img[1].name;
+	img3.innerHTML = img[2].name;
+	img4.innerHTML = img[3].name;
+}
+imageFunction();
